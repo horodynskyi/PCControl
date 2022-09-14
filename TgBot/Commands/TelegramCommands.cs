@@ -1,5 +1,6 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
+using TgBot.Commands.PcCommands;
 
 namespace TgBot.Commands;
 
@@ -12,7 +13,9 @@ public class TelegramCommands:ICommand
         _commands = new List<ICommand>
         {
             new ShutdownCommand(),
-            new CancelShutdown()
+            new CancelShutdown(),
+            new StartCommand(),
+            new AnydeskCommand()
         };
        
     }

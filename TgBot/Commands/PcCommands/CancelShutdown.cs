@@ -3,7 +3,7 @@ using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 
-namespace TgBot.Commands;
+namespace TgBot.Commands.PcCommands;
 
 public class CancelShutdown:ICommand
 {
